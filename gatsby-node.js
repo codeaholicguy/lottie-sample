@@ -8,7 +8,7 @@
 exports.modifyWebpackConfig = ({config, stage}) => {
   if (stage === 'build-html') {
     config.loader('null', {
-      test: /lazysizes/,
+      test: /lottie/,
       loader: 'null-loader',
     })
   }

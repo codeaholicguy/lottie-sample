@@ -8,10 +8,13 @@ import './index.css'
 const TemplateWrapper = ({children}) => (
   <div>
     <Helmet
-      title="Demo animation using Lottie"
+      title="Animation using Lottie"
       meta={[
-        {name: 'description', content: 'Demo animation using Lottie'},
-        {name: 'keywords', content: 'animation, lottie'},
+        {
+          name: 'description',
+          content: 'Demo after effect animation on web using Lottie',
+        },
+        {name: 'keywords', content: 'animation, lottie, web, after effect'},
       ]}
     />
     <Header />

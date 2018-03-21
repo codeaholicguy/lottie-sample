@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import lottie from 'lottie-web'
 
+import animation from '../../public/static/animation.json'
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -14,7 +16,7 @@ class IndexPage extends React.Component {
       this._animation = lottie.loadAnimation({
         container: this._el,
         renderer: 'svg',
-        path: 'static/animation.json',
+        animationData: animation,
       })
     }
   }
