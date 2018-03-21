@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
             }}
             onClick={this._click}
           >
-            BFF
+            click me
           </span>
         </p>
         {this.state.show && (
