@@ -28,9 +28,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div>
-        <p>Now go build something great.</p>
         <p>
-          {'This is my '}
           <span
             style={{
               fontWeight: 'bold',
@@ -39,9 +37,11 @@ class IndexPage extends React.Component {
             }}
             onClick={this._click}
           >
-            click me
+            Click me
           </span>
+          {' to see miracle'}
         </p>
+        <p>Now go build something great.</p>
         {this.state.show && (
           <div
             id="animation"
