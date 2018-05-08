@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import lottie from 'lottie-web'
 
-import animation from '../../public/static/animation.json'
+import animation from '../static/animation.json'
 
 class IndexPage extends React.Component {
   constructor(props) {
